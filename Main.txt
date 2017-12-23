@@ -1,3 +1,8 @@
+function NewFeature: string;
 begin
-  writeln("Версия 1.1. Все работает");
+  result:="Версия 1.2. Работает по новому";
+end;
+
+begin
+  writeln(NewFeature);
 end.
