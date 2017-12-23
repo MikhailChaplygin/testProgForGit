@@ -1,3 +1,7 @@
+procedure AnotherUsefulFeat;
+begin
+end;
+
 function NewFeature: string;
 begin
   result:="Версия 1.2. Работает по новому";
