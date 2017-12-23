@@ -1,3 +1,13 @@
+procedure AnotherUsefulFeat;
 begin
-  writeln("Версия 1.1. Все работает");
+  Writeln("Круть!");
+end;
+
+function NewFeature: string;
+begin
+  result:="Версия 1.2. Работает по новому";
+end;
+
+begin
+  writeln(NewFeature);
 end.
