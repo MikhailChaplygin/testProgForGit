@@ -1,5 +1,6 @@
 procedure AnotherUsefulFeat;
 begin
+  Writeln("Круть!");
 end;
 
 function NewFeature: string;
